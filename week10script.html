@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    Enter your name: <input type="text" id="name" onfocus="changebackground()">
     <div id="box" style="background-color: firebrick; color: antiquewhite; font-family: Arial, Helvetica, sans-serif; font-size: 24px; width: 120px; height: 60px; padding: 40px;" onmouseover="mOver()" onmouseout="mOut()">Mouse Over Me</div>
     <input type="button" value="Say Hello" onclick="SayHello()">
     <script>
@@ -20,6 +21,10 @@
         function mOut(obj)
         {
             document.getElementById("box").innerHTML ="Mouse over me"
+        }
+        function changebackground()
+        {
+            document.getElementById("name").style.background ="Yellow";
         }
     </script>
 </body>
