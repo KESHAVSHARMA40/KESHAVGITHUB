@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="background-color: firebrick; color: antiquewhite; font-family: Arial, Helvetica, sans-serif; font-size: 24px; width: 120px; height: 60px; padding: 40px;" onmouseover="mOver()" onmouseout="mOut()">Mouse Over Me</div>
+    <input type="button" value="Say Hello" onclick="SayHello()">
+    <script>
+        function SayHello()
+        {
+            alert("Hello World");
+        }
+        function mOver()
+        {
+            document.getElementById("box").innerHTML ="Thank You"
+        }
+        function mOut(obj)
+        {
+            document.getElementById("box").innerHTML ="Mouse over me"
+        }
+    </script>
+</body>
+</html>
