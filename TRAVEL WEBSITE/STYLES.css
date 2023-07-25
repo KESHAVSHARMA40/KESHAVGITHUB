@@ -18,6 +18,11 @@ body {
   }
   
   nav li {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    border: 1px rgb(255, 255, 255);
+    background-color: #ffffff;
     text-align: center;
     display: inline;
     margin-right: 20px;
@@ -75,7 +80,7 @@ body {
   
   footer {
     text-align: center;
-    background-color: #3c00d5;
+    background-color: #000000;
     color: #fff;
     padding: 10px;
   }
