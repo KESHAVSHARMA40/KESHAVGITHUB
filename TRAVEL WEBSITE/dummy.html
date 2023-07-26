@@ -18,10 +18,13 @@
     }
     .banner {
       width: 100%;
-      height: 500px;
-      background-image: url('https://via.placeholder.com/1200x500');
+      height: 100%;
+      padding: 200px;
+      background-image: url('1431610.jpg');
       background-size: cover;
       background-position: center;
+      text-align: left;
+      color: #fff;
     }
     .destination-container {
       display: flex;
@@ -39,10 +42,11 @@
     }
     .destination-image {
       width: 100%;
-      height: 200px;
+      padding: 200px;
       background-image: url('https://via.placeholder.com/300x200');
       background-size: cover;
       background-position: center;
+      
     }
     .destination-content {
       padding: 1rem;
@@ -65,15 +69,25 @@
       text-decoration: none;
       margin-top: 1rem;
     }
+    footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+  }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Travel Explorer</h1>
-    <p>Your gateway to exciting destinations</p>
-  </header>
+  <!--<header>
+    <h1></h1>
+    <p></p>
+  </header>-->
 
-  <div class="banner"></div>
+  <div class="banner">
+    <h1>Travel Explorer</h1>
+    <h2>Your gateway to exciting destinations</h2>
+    <a href="index(homepage).html" class="btn" height: 100%; >Explore</a>
+  </div>
 
   <div class="destination-container">
     <div class="destination-card">
@@ -103,5 +117,8 @@
       </div>
     </div>
   </div>
+  <footer>
+    <p>&copy; 2023 GoAmigo. All rights reserved.</p>
+  </footer>
 </body>
 </html>
