@@ -5,10 +5,13 @@ body {
   }
   
   header {
+    background-size: cover;
+    background-position: center;
+   /* background-image: url("Go-Amigo.png");*/
     text-align: justify;
-    background-color: #62dbf3;
+    background-color: #ffffff;
     color: #fff;
-    padding: 10px;
+    padding: 70px;
   }
   
   nav ul {
@@ -19,6 +22,7 @@ body {
   }
   
   nav li {
+    
     border-style: solid;
     border-color: #ffffff;
     border-radius: 10%;
@@ -40,18 +44,22 @@ body {
   }
   
   .hero {
-    background-image: url('photo.jpeg');
-    background-size: 20%;
-    background-position: left;
-    text-align: center;
-    padding: 100px 0;
-    background-color: #f2f2f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    background-image: url('Go-Amigo.png');
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: #fff;
   }
   
   .btn {
     display: inline-block;
-    background-color: #eb2e2e;
-    color: #fff;
+    background-color: #92be95;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #060606;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -153,6 +161,25 @@ body {
     text-align: center;
     color: white;
   }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
   
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
   
   
