@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - TravelGo</title>
-  <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <!-- Navigation code same as index.html -->
-  </header>
+     <main style="background-image: url(pexels-eberhard-grossgasteiger-1287089.jpg);">
+        <section class="contact-section">
+          <h1 style="text-align: center; font-size: 80px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Go-Amigo</h1>
+            <h2>Drop You Feedback</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-  <main>
-    <section class="contact">
-      <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </section>
+    </main>
 
-        <button type="submit" class="btn">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <!-- Footer code same as index.html -->
-  </footer>
+    <footer>
+        <p>&copy; 2023 YourCompany. All rights reserved.</p>
+    </footer>
 </body>
 </html>
