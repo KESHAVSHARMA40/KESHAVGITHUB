@@ -5,6 +5,7 @@ body {
   }
   
   header {
+    font-size: 30PX;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     background-size: cover;
